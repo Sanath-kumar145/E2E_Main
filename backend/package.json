@@ -1,0 +1,33 @@
+{
+  "name": "smart_traffic_backend",
+  "version": "1.0.0",
+  "description": "Backend for Smart Traffic Management System Using AI",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node seed/seedData.js"
+  },
+  "keywords": [
+    "smart-traffic",
+    "traffic-management",
+    "ai",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Lakshmidhar Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
