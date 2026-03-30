@@ -23,6 +23,7 @@ It provides APIs to manage traffic signals, cameras, users, and real-time traffi
 * 🚦 Traffic signal management
 * 📷 Camera data processing
 * 📊 Traffic event tracking
+* ** Emergency vehicle alert
 * 📑 Report generation
 * 🛡️ Secure middleware-based architecture
 
@@ -166,7 +167,6 @@ If an accident is detected:
 
 * No real-time hardware integration
 * Depends on simulated or manual data input
-* No frontend interface (backend only)
 
 ---
 
@@ -176,15 +176,3 @@ If an accident is detected:
 * IoT integration with smart signals
 * Real-time dashboard
 * Mobile application
-
----
-
-## 👨‍💻 Author
-
-* Your Name
-
----
-
-## 📜 License
-
-MIT License
